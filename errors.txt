@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 69: end of line expected.
+    show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting, "All the women here belong to me!" and humiliated the soldier in front of the girl." at center_text with dissolve
+                                                                                                                                                                         ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Fri Jul 25 23:05:46 2025
