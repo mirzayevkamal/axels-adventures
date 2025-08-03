@@ -1,36 +1,5 @@
-# Declare characters used by this game.
-define a = Character("Axel")
-define i = Character("Isabelle")
-define c = Character("Cody")
-define ch = Character("Chad")
-
-# Intro text style
-style intro_text:
-    size 38
-    color "#FFFFFF"
-
-# Positioning transforms
-transform top_text:
-    xalign 0.5
-    yalign 0.2
-
-transform center_text:
-    xalign 0.5
-    yalign 0.5
-
-transform bottom_text:
-    xalign 0.5
-    yalign 0.85
-
-# Background pan and zoom effect
-transform pan_zoom:
-    zoom 1.2
-    xalign 0.5
-    yalign 0.5
-    linear 15.0 zoom 1.0 xalign 0.4 yalign 0.45
-
 # Start of the game
-label start:
+label intro:
 
     scene story_1 at pan_zoom with dissolve
     pause 1.0
@@ -39,45 +8,65 @@ label start:
     $ renpy.pause(4.0)
     hide text with dissolve
 
+    scene story_2 at pan_zoom with dissolve
+    pause 1.0
+
     show text "Months under harsh conditions, uncertain and difficult weather, and at times hunger, not to mention the longing they felt being separated from their families, were already tough." at center_text with dissolve
     $ renpy.pause(4.0)
     hide text with dissolve
+
+    scene story_3 at pan_zoom with dissolve
+    pause 1.0
 
     show text "But what truly disturbed them, wore down their nerves, and sometimes made them willing to even take their own lives, was living under the command of someone they feared." at bottom_text with dissolve
     $ renpy.pause(4.0)
     hide text with dissolve
 
-    scene story_2 
+    scene story_4 
     pause 1.0
 
     show text "Yes, you heard that right. Someone they feared so much they'd rather take their own lives. A man who considered himself the alpha male in a pack of wolves; cunning, self-centered, demeaning even to other men to prove his own dominance, overly confident, strong, masculine, and, in a strange way, incredibly attractive despite all his wickedness." at center_text with dissolve
     $ renpy.pause(10.0)
     hide text with dissolve
 
-    scene story_3 at pan_zoom with dissolve
+    scene story_5 at pan_zoom with dissolve
     pause 1.0
 
-    show text "Beyond all these traits, perhaps it was the tension brought on by high testosterone, which he sought to alleviate in many ways. His flirtatiousness and dominance must have been at an extreme level, as he had subjugated all the women in the army, from secretaries to nurses." at bottom_text with dissolve
+    show text "Beyond all these traits, perhaps it was the tension brought on by high testosterone, which he sought to alleviate in many ways." at bottom_text with dissolve
     $ renpy.pause(10.0)
     hide text with dissolve
 
-    scene story_4 
+    scene story_6 
     pause 1.0
-    
+
+    show text "His flirtatiousness and dominance must have been at an extreme level, as he had subjugated all the women in the army, from secretaries to nurses." at bottom_text with dissolve
+    $ renpy.pause(10.0)
+    hide text with dissolve
+
+    scene story_16 at pan_zoom with dissolve
+    pause 1.0
+
     show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting: 'All the women here belong to me!' and humiliated the soldier in front of the girl." at bottom_text with dissolve
     $ renpy.pause(10.0)
     hide text with dissolve
 
-    scene story_5 at pan_zoom with dissolve
+    scene story_17 at pan_zoom with dissolve
     pause 1.0
 
     show text "For Axel, these were not problems. He would invite young nurses and secretaries to his room, charm them, and have sex with them without mercy. Anyone who tried to challenge him would fail." at center_text with dissolve
     $ renpy.pause(10.0)
     hide text with dissolve
 
+    scene story_15 at pan_zoom with dissolve
+    pause 1.0
+
+
     show text "And the strangest part was that the women who initially seemed to resist him were actually just putting on a show, secretly burning with desire for him to have sex with them. Immediately afterward, they would willingly ask him to do it. Some would even beg him and try to sneak into his room at night." at center_text with dissolve
     $ renpy.pause(10.0)
     hide text with dissolve
+
+    scene story_14 at pan_zoom with dissolve
+    pause 1.0
 
     scene story_6 at pan_zoom with dissolve
     pause 1.0
@@ -93,7 +82,7 @@ label start:
     $ renpy.pause(10.0)
     hide text with dissolve
 
-    scene story_8 at pan_zoom with dissolve
+    scene story_16 at pan_zoom with dissolve
     pause 1.0
 
     show text "Occasional thirst and hunger made everything even harder for the soldiers. Rumors began to circulate in the army: if a soldier wanted extra food and water, they had to be Axel's guest for a night, and when Axel had sex with the nurses, the soldier had to play along with their fantasies." at center_text with dissolve
@@ -135,4 +124,4 @@ label start:
     
     stop movie
 
-    return
+    jump escape
