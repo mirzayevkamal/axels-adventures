@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 5: end of line expected.
-    jump  intro;
-               ^
+File "game/screens.rpy", line 295: style property size appears twice.
+    size gui.quick_button_text_size
+        ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Mon Aug  4 00:14:31 2025
+Thu Aug  7 00:18:30 2025

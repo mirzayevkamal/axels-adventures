@@ -1,32 +1,92 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 70, in script
-    show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting: 'All the women here belong to me!' and humiliated the soldier in front of the girl." at bottom_text_text with dissolve
-  File "game/script.rpy", line 70, in <module>
-    show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting: 'All the women here belong to me!' and humiliated the soldier in front of the girl." at bottom_text_text with dissolve
-NameError: name 'bottom_text_text' is not defined
+  File "game/screens.rpy", line 744, in execute
+    screen preferences():
+  File "game/screens.rpy", line 744, in execute
+    screen preferences():
+  File "game/screens.rpy", line 750, in execute
+    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
+  File "game/screens.rpy", line 750, in <module>
+    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^  
+AttributeError: 'StoreModule' object has no attribute 'preferences_background'
 
 -- Full Traceback ------------------------------------------------------------
 
-Full traceback:
-  File "game/script.rpy", line 70, in script
-    show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting: 'All the women here belong to me!' and humiliated the soldier in front of the girl." at bottom_text_text with dissolve
-  File "/Users/kamalmirzayev/Desktop/renpy-8.3.7-sdk/renpy/ast.py", line 1124, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/kamalmirzayev/Desktop/renpy-8.3.7-sdk/renpy/ast.py", line 1083, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/kamalmirzayev/Desktop/renpy-8.3.7-sdk/renpy/ast.py", line 1083, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/kamalmirzayev/Desktop/renpy-8.3.7-sdk/renpy/python.py", line 1218, in py_eval
+Traceback (most recent call last):
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "renpy/ast.py", line 1187, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1260, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+    ~~~~~~~~~~~^^
+  File "renpy/ui.py", line 304, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 2219, in interact
+    repeat, rv = self.interact_core(
+                 ~~~~~~~~~~~~~~~~~~^
+        preloads=preloads,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )  # type: ignore
+    ^                
+  File "renpy/display/core.py", line 2757, in interact_core
+    root_widget.visit_all(lambda d: d.per_interact())
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 432, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 432, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 432, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+[Previous line repeated 1 more time]
+  File "renpy/display/screen.py", line 503, in visit_all
+    callback(self)
+    ~~~~~~~~^^^^^^
+  File "renpy/display/core.py", line 2757, in <lambda>
+    root_widget.visit_all(lambda d: d.per_interact())
+                                    ~~~~~~~~~~~~~~^^ 
+  File "renpy/display/screen.py", line 514, in per_interact
+    self.update()
+    ~~~~~~~~~~~^^
+  File "renpy/display/screen.py", line 715, in update
+    self.screen.function(**self.scope)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "game/screens.rpy", line 744, in execute
+    screen preferences():
+  File "game/screens.rpy", line 744, in execute
+    screen preferences():
+  File "game/screens.rpy", line 750, in execute
+    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
+  File "renpy/parameter.py", line 513, in evaluate
+    value = renpy.python.py_eval(v, locals=scope)
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1292, in py_eval
     return py_eval_bytecode(code, globals, locals)
-  File "/Users/kamalmirzayev/Desktop/renpy-8.3.7-sdk/renpy/python.py", line 1211, in py_eval_bytecode
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1285, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 70, in <module>
-    show text "Once, upon discovering that a soldier was in love with a nurse, he took the girl into his room and, in front of the soldier, had sex with her, shouting: 'All the women here belong to me!' and humiliated the soldier in front of the girl." at bottom_text_text with dissolve
-NameError: name 'bottom_text_text' is not defined
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/screens.rpy", line 750, in <module>
+    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^  
+AttributeError: 'StoreModule' object has no attribute 'preferences_background'
 
 macOS-15.4-arm64-arm-64bit arm64
-Ren'Py 8.3.7.25031702
+Ren'Py 8.4.1.25072401
 Axels Fantasy 1.0
-Fri Jul 25 23:11:27 2025
+Thu Aug  7 00:11:27 2025

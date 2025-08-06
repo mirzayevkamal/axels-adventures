@@ -4,6 +4,19 @@
 
 init offset = -1
 
+init python:
+    # This allows you to define custom mouse cursors.
+    # You will need to create the image files for the cursors.
+    # For this example, create 'gui/cursor.png' and 'gui/hover_cursor.png'
+    # inside your 'game' directory.
+    # The numbers are the x and y coordinates of the cursor's hotspot.
+    config.mouse = {
+        'default': [('gui/cursor_1.png', 2, 1)],
+        'button': [('gui/cursor_2.png', 2, 1)],
+        'hyperlink': [('gui/cursor_3.png', 2, 1)],
+        'imagemap': [('gui/cursor_4.png', 2, 1)],
+    }
+
 
 ################################################################################
 ## Styles
@@ -412,11 +425,13 @@ style main_menu_version:
 ## This screen is intended to be used with one or more children, which are
 ## transcluded (placed) inside it.
 
-screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+screen game_menu(title, scroll=None, yinitial=0.0, spacing=0, background=None):
 
     style_prefix "game_menu"
 
-    if main_menu:
+    if background is not None:
+        add background
+    elif main_menu:
         add gui.main_menu_background
     else:
         add gui.game_menu_background
@@ -730,6 +745,8 @@ screen preferences():
 
     tag menu
 
+    # By supplying the background parameter, we can override the default
+    # game menu background for this screen.
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
