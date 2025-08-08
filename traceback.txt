@@ -1,33 +1,57 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/screens.rpy", line 744, in execute
-    screen preferences():
-  File "game/screens.rpy", line 744, in execute
-    screen preferences():
-  File "game/screens.rpy", line 750, in execute
-    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
-  File "game/screens.rpy", line 750, in <module>
-    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
-                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^  
-AttributeError: 'StoreModule' object has no attribute 'preferences_background'
+  File "game/script.rpy", line 8, in script
+    call screen character_selection_screen
+  File "game/character_selection.rpy", line 1, in execute
+    screen character_selection_screen():
+  File "game/character_selection.rpy", line 1, in execute
+    screen character_selection_screen():
+  File "game/character_selection.rpy", line 10, in execute
+    frame:
+  File "game/character_selection.rpy", line 17, in execute
+    vbox:
+  File "game/character_selection.rpy", line 25, in execute
+    hbox:
+  File "game/character_selection.rpy", line 30, in execute
+    for char_data in selectable_characters:
+  File "game/character_selection.rpy", line 32, in execute
+    vbox:
+  File "game/character_selection.rpy", line 39, in execute
+    imagebutton:
+  File "game/character_selection.rpy", line 39, in keywords
+    imagebutton:
+  File "game/character_selection.rpy", line 40, in <module>
+    idle Transform(char_data["image"], yoffset=0,
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    # This makes the transition smooth
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    animation=True,
+                    ^^^^^^^^^^^^^^^
+                    )
+                    ^
+Exception: Unknown transform property: 'animation'
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "renpy/ast.py", line 1187, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/python.py", line 1260, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-    ~~~~~~~~~~~^^
+  File "game/script.rpy", line 8, in script
+    call screen character_selection_screen
+  File "renpy/ast.py", line 2231, in execute
+    self.call("execute")
+    ~~~~~~~~~^^^^^^^^^^^
+  File "renpy/ast.py", line 2195, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/statements.py", line 379, in call
+    return method(parsed, *args, **kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/000statements.rpy", line 695, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/statementexports.py", line 348, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "renpy/ui.py", line 304, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -53,7 +77,6 @@ Traceback (most recent call last):
   File "renpy/display/displayable.py", line 432, in visit_all
     d.visit_all(callback, seen)
     ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-[Previous line repeated 1 more time]
   File "renpy/display/screen.py", line 503, in visit_all
     callback(self)
     ~~~~~~~~^^^^^^
@@ -66,27 +89,44 @@ Traceback (most recent call last):
   File "renpy/display/screen.py", line 715, in update
     self.screen.function(**self.scope)
     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/screens.rpy", line 744, in execute
-    screen preferences():
-  File "game/screens.rpy", line 744, in execute
-    screen preferences():
-  File "game/screens.rpy", line 750, in execute
-    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
-  File "renpy/parameter.py", line 513, in evaluate
-    value = renpy.python.py_eval(v, locals=scope)
-            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "game/character_selection.rpy", line 1, in execute
+    screen character_selection_screen():
+  File "game/character_selection.rpy", line 1, in execute
+    screen character_selection_screen():
+  File "game/character_selection.rpy", line 10, in execute
+    frame:
+  File "game/character_selection.rpy", line 17, in execute
+    vbox:
+  File "game/character_selection.rpy", line 25, in execute
+    hbox:
+  File "game/character_selection.rpy", line 30, in execute
+    for char_data in selectable_characters:
+  File "game/character_selection.rpy", line 32, in execute
+    vbox:
+  File "game/character_selection.rpy", line 39, in execute
+    imagebutton:
+  File "game/character_selection.rpy", line 39, in keywords
+    imagebutton:
   File "renpy/python.py", line 1292, in py_eval
     return py_eval_bytecode(code, globals, locals)
            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
   File "renpy/python.py", line 1285, in py_eval_bytecode
     return eval(bytecode, globals, locals)
            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "game/screens.rpy", line 750, in <module>
-    use game_menu(_("Preferences"), scroll="viewport", background=gui.preferences_background):
-                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^  
-AttributeError: 'StoreModule' object has no attribute 'preferences_background'
+  File "game/character_selection.rpy", line 40, in <module>
+    idle Transform(char_data["image"], yoffset=0,
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    # This makes the transition smooth
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    animation=True,
+                    ^^^^^^^^^^^^^^^
+                    )
+                    ^
+  File "renpy/display/transform.py", line 785, in __init__
+    raise Exception("Unknown transform property: %r" % k)
+Exception: Unknown transform property: 'animation'
 
 macOS-15.4-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Axels Fantasy 1.0
-Thu Aug  7 00:11:27 2025
+Sat Aug  9 00:56:34 2025

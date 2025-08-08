@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 295: style property size appears twice.
-    size gui.quick_button_text_size
-        ^
+File "game/screens.rpy", line 1: expected statement.
+    ﻿
+    ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Thu Aug  7 00:18:30 2025
+Fri Aug  8 23:53:37 2025
