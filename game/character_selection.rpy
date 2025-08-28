@@ -19,8 +19,6 @@ screen character_selection_screen():
             xalign 0.5
 
             # The title of the screen.
-            text "Choose Your Character" style "character_selection_title"
-
             # A horizontal box to place the character buttons side-by-side.
             hbox:
                 spacing 50
@@ -37,14 +35,13 @@ screen character_selection_screen():
                         # When clicked, it sets the player_character_id variable
                         # and then jumps to the 'start' label to begin the game.
                         imagebutton:
-                            idle Transform(char_data["image"], yoffset=0)
-                            hover Transform(char_data["image"], yoffset=-20)
+                            idle Transform(char_data["image"])
+                            hover Transform(char_data["image_hover"])
                             action [
                                 SetVariable("player_character_id", char_data["id"]),
                                 Return()
                             ]
-                        # The character's name below the image.
-                        text char_data["name"] style "character_selection_name"
+                            hovered Play("sound", "menu_hover.mp3")
 
 
 # Define some basic styles for the text on the screen.
