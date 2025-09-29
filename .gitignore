@@ -1,0 +1,7 @@
+.save
+log.txt
+*.log
+/cache/
+errors.txt
+*.rpyc
+traceback.txt
