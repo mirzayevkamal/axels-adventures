@@ -1,6 +1,12 @@
-style intro_text:
-    size 38
-    color "#FFFFFF"
+# Intro text screen with outline
+screen intro_text(text_content, ypos=0.5):
+    text text_content:
+        size 38
+        color "#FFFFFF"
+        outlines [(4, "#000000", 0, 0), (2, "#000000", 2, 2)]
+        text_align 0.5
+        xalign 0.5
+        yalign ypos
 
 # Positioning transforms
 transform top_text:
