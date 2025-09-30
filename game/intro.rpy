@@ -12,14 +12,14 @@ label intro:
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
 
-    scene story_2 at pan_zoom with dissolve
+scene story_2 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("But most importantly, what truly disturbed the soldiers was living under the command of a dominant, rough-natured commander. Yes, you heard that right—a dominant and crude individual.", 0.5) with dissolve
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
 
-    scene story_3 at pan_zoom with dissolve
+scene story_3 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("The kind of man who thought himself the alpha male in a wolf pack—fierce, self-centered, overly confident, strong, masculine.", 0.85) with dissolve
@@ -30,7 +30,7 @@ label intro:
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
 
-    scene story_4
+scene story_4
     pause 1.0
 
     show screen intro_text("Despite all these qualities, perhaps due to the tension from his high testosterone, he did many things to relieve it. While exhausting his soldiers with his roughness, he also flirted with the women in the army—secretaries and nurses—who were enamored by this muscular, charismatic, and charming playboy.", 0.5) with dissolve
@@ -41,7 +41,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_5 at pan_zoom with dissolve
+scene story_5 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Sometimes, the occasional thirst and hunger in the army made things even harder for the soldiers. Already frayed by tough conditions, they could barely tolerate the commander's crude behavior.", 0.85) with dissolve
@@ -52,7 +52,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_6
+scene story_6
     pause 1.0
 
     show screen intro_text("Aside from the dominant nature his profession gave him, the confidence from never being rejected by a woman made him even prouder.", 0.85) with dissolve
@@ -63,29 +63,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_7 at pan_zoom with dissolve
-    pause 1.0
-
-    show screen intro_text("The soldiers now knew the rumors about women occasionally visiting Axel's office to sleep with him were true.", 0.85) with dissolve
-    $ renpy.pause(4.0)
-    hide screen intro_text with dissolve
-
-    show screen intro_text("Axel took pleasure in all of this and fed his ego. The way women idolized him was, for a man, the true meaning of power.", 0.85) with dissolve
-    $ renpy.pause(6.0)
-    hide screen intro_text with dissolve
-
-    scene story_8 at pan_zoom with dissolve
-    pause 1.0
-
-    show screen intro_text("His flirtatious and dominant nature must have been at its peak, as he wasn't satisfied with what he was doing. Every day, he pursued more and different fantasies, living new experiences.", 0.85) with dissolve
-    $ renpy.pause(6.0)
-    hide screen intro_text with dissolve
-
-    show screen intro_text("It was clear that these experiences became increasingly thrilling for those he slept with. Who knows… perhaps what made Axel so attractive to them was his roughness.", 0.85) with dissolve
-    $ renpy.pause(6.0)
-    hide screen intro_text with dissolve
-
-    scene story_24 with dissolve
+scene story_24 with dissolve
     pause 1.0
 
     show screen intro_text("Once, there was a nurse who had a soldier boyfriend but ended her relationship because she was in love with the commander. When the soldier asked why she wanted to break up, she replied, 'I can't see a future in our relationship.'", 0.85) with dissolve
@@ -96,7 +74,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_25 with dissolve
+scene story_25 with dissolve
     pause 1.0
 
     show screen intro_text("When the soldier walked in, he caught his ex-girlfriend having sex with Commander Axel.", 0.5) with dissolve
@@ -107,7 +85,29 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_26 at pan_zoom with dissolve
+scene story_7 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("The soldiers now knew the rumors about women occasionally visiting Axel's office to sleep with him were true.", 0.85) with dissolve
+    $ renpy.pause(4.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Axel took pleasure in all of this and fed his ego. The way women idolized him was, for a man, the true meaning of power.", 0.85) with dissolve
+    $ renpy.pause(6.0)
+    hide screen intro_text with dissolve
+
+scene story_8 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("His flirtatious and dominant nature must have been at its peak, as he wasn't satisfied with what he was doing. Every day, he pursued more and different fantasies, living new experiences.", 0.85) with dissolve
+    $ renpy.pause(6.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("It was clear that these experiences became increasingly thrilling for those he slept with. Who knows… perhaps what made Axel so attractive to them was his roughness.", 0.85) with dissolve
+    $ renpy.pause(6.0)
+    hide screen intro_text with dissolve
+
+scene story_26 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Seeing the girl as his prey for the day, Axel was no different from a wild lion. Grabbing her possessively by the throat from behind, he didn't hesitate to thrust his cock deep inside her.", 0.5) with dissolve
@@ -118,7 +118,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_27 with dissolve
+scene story_27 with dissolve
     pause 1.0
 
     show screen intro_text("While all this was happening, the nurse, caught by her ex-boyfriend soldier, continued having sex with Axel without even being bothered by his presence.", 0.5) with dissolve
@@ -129,7 +129,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_28 at pan_zoom with dissolve
+scene story_28 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Realizing the army rumors were true, the soldier, despite being shocked by witnessing such a scene for the first time, quietly left the room.", 0.5) with dissolve
@@ -140,7 +140,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_9 with dissolve
+scene story_9 with dissolve
     pause 1.0
 
     show screen intro_text("In his office, Axel spent time with young nurses and secretaries, fucking them without mercy. The girls loved this side of him.", 0.5) with dissolve
@@ -151,7 +151,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_11 at pan_zoom with dissolve
+scene story_11 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Always ready to be seduced, Axel never sent his sweet visitors away empty-handed.", 0.5) with dissolve
@@ -162,7 +162,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_10 with dissolve
+scene story_10 with dissolve
     pause 1.0
 
     show screen intro_text("The girls who willingly came to his room were thrilled by Axel's intentions. It even became an addiction for some.", 0.5) with dissolve
@@ -173,7 +173,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_12 with dissolve
+scene story_12 with dissolve
     pause 1.0
 
     show screen intro_text("They couldn't believe how they'd gotten to this point. Was it a devil's temptation or the ability to be both dark and irresistibly attractive?", 0.5) with dissolve
@@ -184,7 +184,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_13 with dissolve
+scene story_13 with dissolve
     pause 1.0
 
     show screen intro_text("The girls, accustomed to pleasing their muscular man's big cock, waited for nightfall to satisfy him, unaware of each other. Some, hearing moans from outside his office, would turn back.", 0.5) with dissolve
@@ -195,7 +195,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_14 at pan_zoom with dissolve
+scene story_14 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("As days passed, Axel's lust only grew. He even had sex with five or six women at once in his office.", 0.5) with dissolve
@@ -206,7 +206,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_15 with dissolve
+scene story_15 with dissolve
     pause 1.0
 
     show screen intro_text("With his massive cock, muscular body, and harsh demeanor, he fucked like a wild animal, captivating his women.", 0.5) with dissolve
@@ -217,7 +217,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_16 at pan_zoom with dissolve
+scene story_16 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("On every visit, Axel seduced different girls, making them his own, and took pleasure in their screams as they were fucked. Trying to fit his large, veiny cock into their tight pussies turned him on even more.", 0.5) with dissolve
@@ -228,7 +228,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_17 with dissolve
+scene story_17 with dissolve
     pause 1.0
 
     show screen intro_text("Most of the women in the army had seen each other during group sex and had all been fucked by Axel in turn. Few in the massive army remained unaware of his sex games. Others had heard tales of how great a fucker he was.", 0.5) with dissolve
@@ -239,7 +239,7 @@ label intro:
     $ renpy.pause(10.0)
     hide screen intro_text with dissolve
 
-    scene story_18 at pan_zoom with dissolve
+scene story_18 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("As days went by, tensions in the army rose due to discord, harsh weather, and tough conditions. Some suffered from hunger and thirst, others from the army's challenges.", 0.5) with dissolve
@@ -250,7 +250,7 @@ label intro:
     $ renpy.pause(6.0)
     hide screen intro_text with dissolve
 
-    scene story_22 at pan_zoom with dissolve
+scene story_22 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Axel was cunning and smart, and it wasn't hard for him to anticipate what might happen. A secret nighttime operation was organized by government officials to end his command.", 0.5) with dissolve
@@ -261,7 +261,7 @@ label intro:
     $ renpy.pause(8.0)
     hide screen intro_text with dissolve
 
-    scene story_19 with dissolve
+scene story_19 with dissolve
     pause 1.0
 
     show screen intro_text("But there was something no one knew: some women in the army, including nurses who were in love with Axel and had slept with him, helped him escape. It was too late… Yes, you heard right.", 0.5) with dissolve
@@ -272,7 +272,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_20 at pan_zoom with dissolve
+scene story_20 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("Whether they helped him out of fear or gratitude wasn't clear, but Axel was the winner. For him, sex was a unique way to seduce women and make them fall for him.", 0.5) with dissolve
@@ -283,7 +283,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_21 with dissolve
+scene story_21 with dissolve
     pause 1.0
 
     show screen intro_text("Helping a criminal makes you one, but this was different—because Axel was different. None of them had ever been with a man like him.", 0.5) with dissolve
@@ -294,7 +294,7 @@ label intro:
     $ renpy.pause(8.0)
     hide screen intro_text with dissolve
 
-    scene story_23 with dissolve
+scene story_23 with dissolve
     pause 1.0
 
     show screen intro_text("The room was empty. The fantasy sex toys, pleasure devices, sperm stains scattered around, and bottles of massage oil in the drawers were proof of everything.", 0.5) with dissolve
@@ -305,7 +305,7 @@ label intro:
     $ renpy.pause(5.0)
     hide screen intro_text with dissolve
 
-    scene story_29 at pan_zoom with dissolve
+scene story_29 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("As time passed, stories about this mysterious and dangerous man began to spread everywhere. The whole country was talking about him, uneasy.", 0.5) with dissolve
@@ -316,7 +316,7 @@ label intro:
     $ renpy.pause(10.0)
     hide screen intro_text with dissolve
 
-    scene story_30 with dissolve
+scene story_30 with dissolve
     pause 1.0
 
     show screen intro_text("Realizing his pictures were everywhere and his name was on everyone's lips, Axel understood that hiding in the city could only help so much.", 0.5) with dissolve
@@ -327,7 +327,7 @@ label intro:
     $ renpy.pause(7.0)
     hide screen intro_text with dissolve
 
-    scene story_31 at pan_zoom with dissolve
+scene story_31 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("The 'Untrodden Forest' was miles away from the city, covered in dense trees, rarely visited by people—sometimes not for years.", 0.5) with dissolve
@@ -338,7 +338,7 @@ label intro:
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
 
-    scene story_32 with dissolve
+scene story_32 with dissolve
     pause 1.0
 
     show screen intro_text("That's why Axel's choice of this place was significant. He knew no one would find him here.", 0.5) with dissolve
@@ -349,7 +349,7 @@ label intro:
     $ renpy.pause(3.0)
     hide screen intro_text with dissolve
 
-    scene story_33 at pan_zoom with dissolve
+scene story_33 at pan_zoom with dissolve
     pause 1.0
 
     show screen intro_text("His advanced military training made him strong enough to survive in the wild. His hunting skills, alertness, cunning, and masculine instincts made him a true alpha animal.", 0.5) with dissolve
@@ -360,7 +360,7 @@ label intro:
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
 
-    scene story_34 with dissolve
+scene story_34 with dissolve
     pause 1.0
 
     show screen intro_text("You could say he was now the king of this forest. He knew it like the back of his hand, setting various traps to hunt easily.", 0.5) with dissolve
@@ -370,5 +370,246 @@ label intro:
     show screen intro_text("Hardly anyone came to this forest anyway, which is why it was called the 'Wilderness.'", 0.5) with dissolve
     $ renpy.pause(4.0)
     hide screen intro_text with dissolve
+
+scene story_35 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("Despite everything that had happened recently, Axel never once felt fear or regret. Day by day, he adapted to his new life.", 0.5) with dissolve
+    $ renpy.pause(7.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("But a wounded animal is always more dangerous. And even if he seemed calm… inside, the collapse of the army's structure had only fueled his rage.", 0.5) with dissolve
+    $ renpy.pause(7.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("It made Axel even more dominant, even more brutal.", 0.5) with dissolve
+    $ renpy.pause(3.0)
+    hide screen intro_text with dissolve
+
+scene story_36 with dissolve
+    pause 1.0
+
+    show screen intro_text("For a commander, the most important thing was having a stronghold. A place to feel safe, to shield himself from any threat. Trusting his instinct, Axel had claimed the safest ground in the entire forest on day one:", 0.5) with dissolve
+    $ renpy.pause(9.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Surrounded by thick trees and massive rocks, cloaked in darkness, close to every part of the forest, and most importantly—a cave so hidden that no one would find it.", 0.5) with dissolve
+    $ renpy.pause(8.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And even if someone did, no one would dare step inside.", 0.5) with dissolve
+    $ renpy.pause(3.0)
+    hide screen intro_text with dissolve
+
+scene story_37 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("The fire inside the pitch-black cave cast flickering shadows across the damp, sunless stone. His eyes stared into the dark while his hunger twisted inside him. But this wasn't hunger for food.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("This was pure, raw, sexual need. Days without a woman… his cock ached with a throbbing lust he couldn't shake.", 0.5) with dissolve
+    $ renpy.pause(7.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("The only thing he missed from the army were the women who worshipped him nightly—their moans, their mouths, their drenched pussies… and all the filthy fantasies they played out for him. He finally understood what desperation really meant.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+scene story_38 with dissolve
+    pause 1.0
+
+    show screen intro_text("But he had no idea that fate was about to hand him a gift. The way a thirsty soul finds water in a desert—Axel was about to experience something just as powerful.", 0.5) with dissolve
+    $ renpy.pause(9.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("A situation that was impossible to dream of… Yet was about to happen anyway.", 0.5) with dissolve
+    $ renpy.pause(6.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("It would satisfy his feral lust. But it would also spark a chain of new, dangerous events.", 0.5) with dissolve
+    $ renpy.pause(7.0)
+    hide screen intro_text with dissolve
+
+scene story_39 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("Wow… I can't wait to start cataloguing the new plant species here. This forest is untouched by humans, and probably hasn't been explored in decades.", 0.5) with dissolve
+    $ renpy.pause(8.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("If I, a PhD biology student, were to discover a new species—it'd be a university sensation.", 0.5) with dissolve
+    $ renpy.pause(5.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("What a boost that would be for my future career… maybe I'd even be called 'young professor' one day.", 0.5) with dissolve
+    $ renpy.pause(5.0)
+    hide screen intro_text with dissolve
+
+scene story_40 with dissolve
+    pause 1.0
+
+    show screen intro_text("Haha, okay, maybe I'm getting ahead of myself—but still… Even if I can't become a professor right away, this will help me become a better biologist after graduation.", 0.5) with dissolve
+    $ renpy.pause(8.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Honestly, Isabella, when I said we should go on a trip, I chose this place specifically so I could combine it with research. I have a feeling this forest is going to bring me luck. I know it will.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("What do you think? Aren't these plants amazing?", 0.5) with dissolve
+    $ renpy.pause(3.0)
+    hide screen intro_text with dissolve
+
+scene story_41 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("Ah, Cody… If only you gave me as much attention as you do these damn plants. When I said yes to this trip, I saw it as our last chance to reignite something—something hot, something real. But I think I was wrong.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And now it's too late… because we're already here. Plus, I invited my friends to join. They didn't want to disappoint me, so they came along.", 0.5) with dissolve
+    $ renpy.pause(9.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("I still can't believe I traveled all this way just to look at a few weeds. Anyway, I need to start rehearsing for my dance competition. At least the view out here is good enough to help me focus.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+scene story_42 with dissolve
+    pause 1.0
+
+    show screen intro_text("And thank God I invited my friends at the last minute… Otherwise I'd have been stuck alone for days with this pathetic Cody. You asked me for one more chance, Cody.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And even after everything, I gave it to you. You know I'm a strong, ambitious woman who takes what she wants—and you know I carry a high-voltage feminine energy that not every man can handle. I told you from day one: not just any guy can keep up with me.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Back when I first met you—after one of my shows—you approached me with that 'bad boy' charm. Yeah, it worked… at first.", 0.5) with dissolve
+    $ renpy.pause(8.0)
+    hide screen intro_text with dissolve
+
+scene story_43 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("But now, your cowardice, your limp behavior, your weak performance in bed—it's all become unbearable. I've been telling you for two weeks I want to break up. And I think I've said it clearly enough by now. This isn't working.", 0.5) with dissolve
+    $ renpy.pause(13.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("We're not working. Why are you still clinging to this? Do you even remember the last time we had sex? It's been over a month.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And it lasted five damn minutes. I gave you this trip as one final shot. But of course, you only brought me here for your precious plants.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+scene story_44 with dissolve
+    pause 1.0
+
+    show screen intro_text("Mm… well, Isabella, I really like you. Just being near you, holding your hand—it calms me. I imagined us walking hand in hand through the grass on the way here… maybe even finding a four-leaf clover.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And maybe you could help me find some useful herbs too? Like Aesculus hippocastanum or Hypericum perforatum? I ran out of face masks… and I want to make a natural one from scratch.", 0.5) with dissolve
+    $ renpy.pause(10.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Wouldn't that be great? Oh, I wonder if Valerie would want some too. I'll make extras.", 0.5) with dissolve
+    $ renpy.pause(6.0)
+    hide screen intro_text with dissolve
+
+scene story_45 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("This idiot must be joking. I'm so turned on again, it's insane. God, I wish we'd at least had sex tonight. That would've been better than nothing. Cody, look… we haven't had any time alone in weeks.", 0.5) with dissolve
+    $ renpy.pause(13.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("How about tonight, in the tent… we do something nice together? Maybe then I'll rethink this breakup thing. At least I'd get off without my vibrator for once, which would help me relax for tomorrow's dance rehearsal.", 0.5) with dissolve
+    $ renpy.pause(13.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Let's have one last wild night, Cody. What do you say? Should we burn off a little tension tonight?", 0.5) with dissolve
+    $ renpy.pause(8.0)
+    hide screen intro_text with dissolve
+
+scene story_46 with dissolve
+    pause 1.0
+
+    show screen intro_text("Ugh, this idea to split up and explore separately was so dumb. We should've stayed together. Should we go back? Whatever, we came all this way. Might as well enjoy the view, Tobby.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("I knew Isabella invited us because she was fed up with Cody, but we came for her. And honestly, the scenery is incredible. Way better than the view of empty glasses behind the bar. This break is a good excuse to get away from work for a few days.", 0.5) with dissolve
+    $ renpy.pause(16.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Now if only we'd come with some guy who had a huge dick… He'd be fucking me under every damn tree in this place. Why so quiet, Tobby? Where are you looking?", 0.5) with dissolve
+    $ renpy.pause(11.0)
+    hide screen intro_text with dissolve
+
+scene story_47 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("This view really is amazing. You're a DJ—I just make drinks at the bar. All I ever see are half-naked drunk girls grinding on the floor. Yikes.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Not that I'd mind seeing half-naked guys dance instead. You have no idea how hard it is being a gay man in that place, haha. Let's walk a bit more, then we'll head back to Isabella. The air here is weird, right?", 0.5) with dissolve
+    $ renpy.pause(15.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Feels like it gives you energy. Honestly, it's making me so horny again. If I had a muscular guy with a fat cock here, I'd drag him into the tent and ride him until sunrise… mmphh.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+scene story_48 with dissolve
+    pause 1.0
+
+    show screen intro_text("Hahaha, I literally just thought the same thing. But come on, who else could even be in this untouched forest besides us? We've got a few days before we go back to the city.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Hold it together. You'll find another guy with a big cock soon enough and drag him into your backroom at the bar. I'm saying this to you, Tobby, but honestly… I don't know how I'm going to survive these next few days.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Ahhh, Isabella—we're putting up with all of this just to keep you company. Let's go back to them before Cody makes her lose her shit, haha. Also… I'm starting to get hungry.", 0.5) with dissolve
+    $ renpy.pause(12.0)
+    hide screen intro_text with dissolve
+
+scene story_49 at pan_zoom with dissolve
+    pause 1.0
+
+    show screen intro_text("Sorry to interrupt you, Cody. Mind if we steal our friend for a bit? Tobby and I were walking around the forest—it's breathtaking. Just between us, the clean air is turning me on like crazy.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("And making me hungry too, Isabella, hahaha. So, what's the plan? Snack on something, walk a little more? Or are we gonna sit around the campfire roasting marshmallows and sipping cocoa while telling ghost stories?", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("I bet that's sweet Cody's idea of fun. Now I get why Isabella invited us—to keep her from dying of boredom. Honestly, I'd rather be in a sex party with 4–5 big-dicked guys wrecking me senseless.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+scene story_50 with dissolve
+    pause 1.0
+
+    show screen intro_text("Actually, Valerie and I were talking about that. Maybe we'll eat a bit, walk around the lake—Cody said the view's nice there. It's near the campsite anyway. Honestly, inviting Valerie and Tobby was the smartest thing I did.", 0.5) with dissolve
+    $ renpy.pause(15.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("Otherwise I'd be stuck following Cody's lame schedule. At least tonight, I'll get some satisfaction in bed. And if I spend the next few days dancing and hanging with my friends, then go back to the city and dump Cody,", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
+    show screen intro_text("I can finally have wild sex with a real man—a man with a big, hard cock. It's been way too long since I've had good sex. I'm starving for a real man. Just a little longer… I have to be patient.", 0.5) with dissolve
+    $ renpy.pause(14.0)
+    hide screen intro_text with dissolve
+
 
     return
