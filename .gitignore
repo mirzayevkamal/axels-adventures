@@ -1,7 +1,10 @@
-.save
+*.save
 log.txt
 *.log
-/cache/
+game/cache/
 errors.txt
 *.rpyc
+*.rpyb
 traceback.txt
+game/saves/
+*.json
