@@ -1,52 +1,46 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/screens.rpy", line 623
-    2-
-SyntaxError: invalid syntax
+NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "game/intro.rpy", line 430, in script
+    isabella "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
+Exception: Sayer 'isabella' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "renpy/common/00start.rpy", line 201, in script
-    python:
-  File "renpy/ast.py", line 1187, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/python.py", line 1260, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/00start.rpy", line 202, in <module>
-    _init_language()
-    ~~~~~~~~~~~~~~^^
-  File "renpy/common/00start.rpy", line 83, in _init_language
-    renpy.change_language(language, force=True)
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/translation/__init__.py", line 835, in change_language
-    run_blocks()
-    ~~~~~~~~~~^^
-  File "renpy/translation/__init__.py", line 790, in run_blocks
-    new_change_language(tl, language, changed)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/translation/__init__.py", line 740, in new_change_language
-    i.apply()
-    ~~~~~~~^^
-  File "renpy/ast.py", line 2668, in apply
-    value = renpy.python.py_eval(expr)
-            ~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "renpy/python.py", line 1290, in py_eval
-    code = py_compile(code, "eval")
-           ~~~~~~~~~~^^^^^^^^^^^^^^
-  File "renpy/python.py", line 1247, in py_compile
-    raise e
-  File "renpy/python.py", line 1177, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, True)
-           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "game/screens.rpy", line 623
-    2-
-SyntaxError: invalid syntax
+  File "renpy/ast.py", line 625, in eval_who
+    return renpy.python.py_eval(who)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/python.py", line 1292, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1285, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<none>", line 1, in <module>
+NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
 
-macOS-15.4-arm64-arm-64bit arm64
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "game/intro.rpy", line 430, in script
+    isabella "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
+  File "renpy/ast.py", line 2915, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 956, in execute
+    who = eval_who(self.who, self.who_fast)
+          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ast.py", line 627, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'isabella' is not defined.
+
+macOS-15.6.1-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Axels Fantasy 1.0
-Sun Aug 10 00:25:44 2025
+Wed Oct 15 22:41:54 2025

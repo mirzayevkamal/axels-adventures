@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens/about.rpy", line 24: expected statement.
-    sdfsdf
-          ^
+File "game/characters.rpy", line 8: invalid syntax. Perhaps you forgot a comma?
+    Character("Valerie", window_background=Transform("gui/txtbg2.png", xysize=(1920, 278)), who_xalign=0.2 what_slow_cps=30)
+                                                                                                       ^^^^^^^^^^^^^^^^^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Sun Aug 10 01:31:13 2025
+Wed Oct 15 22:37:47 2025
