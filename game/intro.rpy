@@ -396,116 +396,360 @@ label intro:
 
     # narrator "Ahhh, isabelle—we're putting up with all of this just to keep you company. Let's go back to them before Cody makes her lose her shit, haha. Also… I'm starting to get hungry."
 
-    scene story_49 at pan_zoom with dissolve
+    # scene story_49 at pan_zoom with dissolve
+    # pause 1.0
+
+    # valerie "Sorry to interrupt you, Cody. Mind if we steal our friend for a bit? Tobby and I were walking around the forest—it's breathtaking. Just between us, the clean air is turning me on like crazy."
+
+    # cody "And making me hungry too, isabelle, hahaha. So, what's the plan? Snack on something, walk a little more? Or are we gonna sit around the campfire roasting marshmallows and sipping cocoa while telling ghost stories?"
+
+    # valerie "I bet that's sweet Cody's idea of fun. Now I get why isabelle invited us—to keep her from dying of boredom. Honestly, I'd rather be in a sex party with 4–5 big-dicked guys wrecking me senseless."
+
+    # scene story_50 with dissolve
+    # pause 1.0
+
+    # isabelle "Actually, Valerie and I were talking about that. Maybe we'll eat a bit, walk around the lake—Cody said the view's nice there. It's near the campsite anyway. Honestly, inviting Valerie and Tobby was the smartest thing I did."
+
+    # isabelle "Otherwise I'd be stuck following Cody's lame schedule. At least tonight, I'll get some satisfaction in bed. And if I spend the next few days dancing and hanging with my friends, then go back to the city and dump Cody,"
+
+    # isabelle "I can finally have wild sex with a real man—a man with a big, hard cock. It's been way too long since I've had good sex. I'm starving for a real man. Just a little longer… I have to be patient."
+
+    # scene story_51 with dissolve
+    # pause 1.0
+
+    # valerie "Shut up, Tobby, as if you weren’t the one just burning inside to get fucked by a big-dicked guy hahaha."
+    # tobby "(Yeah, maybe I was… but you didn’t have to say it out loud, Valerie.)"
+    # valerie "(Oh, come on. Everyone’s thinking it anyway.)"
+
+    # cody "You’re right, honey, it’s better if we leave before it gets dark."
+    # cody "Let’s grab the sandwiches and go wherever we’re going, I’m starving like a wolf."
+    # cody "It’d be good to sleep early tonight, isabelle. Tomorrow we’ll wake up early and as soon as your rehearsals end, we’ll go swimming at the lake."
+    # cody "Come on, darlings, let’s go. It’ll be dark soon."
+
+    # valerie "isabelle looks downcast."
+    # valerie "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
+    # valerie "How awful for a fiery and sexy woman like her to be with someone as incompetent and impotent as Cody."
+    # valerie "I bet isabelle is counting the days until she gets back hahah."
+
+    # scene story_53 with dissolve
+    # pause 1.0
+
+    # isabelle "AHHHH AHHHH YESSS keep going please, ahhhhhh, just like that keep going..."
+    # isabelle "(Finally… he’s moving faster. Maybe this time—)"
+    # isabelle "(No… it still feels empty. Forced. Mechanical. Like he’s trying to prove something.)"
+    # isabelle "(Why do I even pretend this feels good?)"
+
+    # scene story_54 with dissolve
+    # pause 1.0
+
+    # isabelle "OOOfff keep going Cody please keep going."
+    # isabelle "Tonight I want you to fuck me until morning."
+    # isabelle "Ahh yes keep going. Ahhh when you thrust your cock in and out of me, my pussy gets soaked."
+    # isabelle "You haven’t fucked me in weeks."
+    # isabelle "Try to be rough, please. Ahhh. Fuck me so hard that my screams echo through the whole forest."
+
+    # isabelle "(Let’s see how many minutes he lasts this time.)"
+    # isabelle "(If I act like I’m enjoying it, maybe he’ll last longer.)"
+    # isabelle "(At least I won’t need my vibrator tonight… if I can even finish.)"
+    # isabelle "Yes keep going Cody, fuck me like a real man."
+
+    # scene story_55 with dissolve
+    # pause 1.0
+
+    # isabelle "Don’t slow down, be rough. No stopping. No pauses, fuck me hard."
+    # isabelle "This is the body you wanted—then fuck it."
+    # isabelle "Thrust all the way in, pull out, then shove it in again in hard, sudden motions until your balls slap against me."
+
+    # isabelle "(I can’t believe I’ve gotten to the point of telling a man how to fuck me.)"
+    # isabelle "(I can’t believe I’ve let myself fall into such a pathetic situation.)"
+    # isabelle "(Look at this poor excuse of a man. I can’t endure one more day with this loser. His stupidity killed all my libido.)"
+
+    # cody "(She’s saying everything I want to hear… but something in her eyes feels distant. Cold.)"
+    # isabelle "(I can’t even hate him properly anymore. I just want this to end.)"
+
+    # scene story_56 with dissolve
+    # pause 1.0
+
+    # cody "AAAHH... isabelle, am I fucking you like you said?"
+    # cody "Ahhh, you’re so wet inside."
+    # cody "isabelle, I’m going to cum already, I can’t hold it anymore."
+    # cody "I can’t last long."
+    # cody "AAAHhhh—"
+
+    # scene story_57 with dissolve
+    # pause 1.0
+
+    # isabelle "Enough already. Seven minutes this time too."
+    # isabelle "Did you bring me all the way out here, miles from home, just to see the view?"
+    # isabelle "Was this your hot surprise for me?"
+    # isabelle "Good night. I don’t want to waste any more time with a loser like you."
+    # isabelle "I’ve wasted enough of my time on you already."
+
+    # isabelle "I told you before— not every man can handle me."
+    # isabelle "I can’t keep being with a weak, cowardly man."
+    # isabelle "I won’t be the joke among my friends because of you."
+    # isabelle "You invited me to pick flowers under the excuse of a romantic trip."
+    # isabelle "Your mind is only on yourself."
+    # isabelle "And our sexual chemistry is terrible."
+
+    # isabelle "Enough already, I can’t keep tolerating your disrespect any longer."
+    # isabelle "Please don’t say a single word, I’m furious."
+    # isabelle "The moment we get back, everything between us is over."
+
+    # scene story_58 with dissolve
+    # pause 1.0
+    # narrator "Cody turned his back to isabelle helplessly and, in a sad voice, said goodnight before falling asleep."
+    # narrator "isabelle didn’t even blink for forty minutes."
+    # narrator "She was too angry to sleep."
+    # narrator "She was already planning to leave this forest as soon as she woke up."
+    # narrator "To return to the city, resume her dance rehearsals, embrace her single life again."
+    # narrator "To drink until morning with her friends, to dance at the bar until her legs gave out."
+    # narrator "And to have wild, endless sex with any handsome, real man she met that night."
+    # narrator "Cody, lying there with his back turned like nothing had happened, already knew—"
+    # narrator "Tonight would be the night isabelle left him."
+
+    # scene story_59 with dissolve
+    # pause 1.0
+    # narrator "isabelle realized she was thirsty and stepped outside the tent."
+    # narrator "It was very late. In just a few hours, sunlight would begin to shine through the forest."
+    # narrator "But even water couldn't cool her fury or her fire."
+    # narrator "She saw her friends Valerie and Tobby sleeping peacefully in the other tent."
+    # narrator "But she had no desire to return to her own."
+    # narrator "Her rage at Cody was too great. She couldn’t stand to sleep beside him, or even see his face."
+    # narrator "She decided to wander outside until morning—"
+    # narrator "And when her friends woke up, she’d head back to the city with them."
+
+    # scene story_60 with dissolve
+    # pause 1.0
+    # narrator "Tired of standing in front of the tent like a guard waiting for dawn, isabelle acted on impulse."
+    # narrator "Despite how late it was, and how dark the forest had grown, she felt fearless—"
+    # narrator "Fueled by the reckless courage that only anger could give."
+    # narrator "She decided to walk back to the place they had explored earlier that day."
+    # narrator "Tall trees loomed eerily in the darkness, but the full moon lit her path."
+    # narrator "Dawn was approaching."
+    # narrator "Despite the long day and the exhaustion clinging to her limbs—"
+    # narrator "She was still burning with the desire to be fucked."
+
+    # scene story_61 with dissolve
+    # pause 1.0
+    # narrator "When she reached the rocky area, isabelle realized she couldn’t resist the heat in her body any longer."
+    # narrator "She found a soft spot, leaned her back against the cold stone, and let her fingers drift across her heated skin."
+    # narrator "She longed to trace herself from her breasts all the way down to her pussy."
+    # narrator "Even while walking, she could feel her slick, warm sex throbbing with need."
+    # narrator "The fury that had once consumed her was now replaced with raw, feminine lust."
+    # narrator "A woman this sexy, this beautiful—overflowing with sensual power—"
+    # narrator "There wasn’t a man alive who could ever say no to her."
+
+    # scene story_62 with dissolve
+    # pause 1.0
+    # narrator "Her slim waist, curved body, full breasts, long hair, and flawless glowing skin—"
+    # narrator "She was sure she could lure any man in the city into her bed without even trying."
+    # narrator "That confidence, that arousal, drove her hand down over her naked body."
+    # narrator "She was ready to masturbate right there beneath the stars."
+    # narrator "To be taken by a man with a thick, muscular, hairy body—"
+    # narrator "After enduring Cody’s failures, that would be a reward in itself."
+    # narrator "She was losing her mind at the thought—"
+    # narrator "That tomorrow, or the day after, she’d find a real man who’d keep her in bed all day, fucking her without pause."
+
+    # scene story_63 with dissolve
+    # pause 1.0
+    # narrator "She stripped off the sexy lingerie she had worn for Cody—"
+    # narrator "Not delicately, but carelessly, tossing it aside like it meant nothing."
+    # narrator "She hoped that maybe, just maybe, she could quench her fire through release."
+    # narrator "The cold forest air couldn’t reach her."
+    # narrator "Her naked body stayed warm, flushed with desire."
+    # narrator "Eyes closed, head tilted up, isabelle squeezed her breasts between both hands—"
+    # narrator "Her fantasies chasing one another like wild animals."
+    # narrator "The night was strangely silent. Still. A faint chill in the air."
+    # narrator "She could hear the pounding of her own heart."
+
+    # scene story_64 with dissolve
+    # pause 1.0
+    # narrator "Life plays games when you least expect it."
+    # narrator "No matter where you are or how you feel, adventure can sneak up and grab you by the throat."
+    # narrator "Right when isabelle reached the peak of her lust, hidden among the rocks—"
+    # narrator "The sight before her eyes stole her breath away."
+    # narrator "For a moment, she couldn’t believe what she was seeing."
+    # narrator "She thought maybe it was a fantasy—"
+    # narrator "Maybe she’d desired it so much that her mind had made it appear."
+    # narrator "But no fantasy could feel this real."
+    # narrator "And as soon as that realization hit her, her heart and mind tangled into chaos."
+
+    # scene story_65 with dissolve
+    # pause 1.0
+    # isabelle "Am I dreaming—or is this all real?"
+    # isabelle "It must be real."
+    # isabelle "But I thought nobody lived out here."
+    # isabelle "Isn’t it strange that I’d run into someone—"
+    # isabelle "Exactly the kind of man I crave—"
+    # isabelle "At the exact moment I crave him?"
+    # isabelle "Or is this just a perfect coincidence?"
+    # isabelle "God, look at his body... those huge muscles..."
+    # isabelle "Oooofff, he’s so sexy."
+    # isabelle "That cloth around his waist looks thick—is his cock really that big?"
+    # isabelle "What if he’s dangerous?"
+    # isabelle "What if he does something to me?"
+    # isabelle "But what man could resist a woman this sexy, this wet?"
+    # isabelle "Oooofff, what do I do?"
+    # isabelle "Should I step out from hiding and go to him?"
+    # isabelle "I’d give anything for him to fuck me rough, insatiably, right now."
+    # isabelle "Just the sight of him is enough to make me drip."
+
+
+
+    scene story_66 with dissolve
     pause 1.0
+    window hide
+    narrator "Oooofff, look at those broad shoulders. I'd give anything to rake my nails across them."
+    narrator "He walked right past the rocks where I was hiding, so I guess he didn’t notice me."
+    narrator "Of course he didn’t. If he had, would a man that big stay calm?"
+    narrator "He turned me on so much."
+    narrator "Running into exactly the kind of man I wanted in the middle of the forest, at this hour, can’t just be a coincidence."
+    narrator "Oooofff he’s walking away, I need to decide fast."
+    narrator "If he leaves and I lose him, I might never see him again."
+    narrator "Oooofff I have to make a decision. But I’m isabelle—of course I’ll take the risk."
+    narrator "Tonight, I want that man to fuck me wild."
 
-    valerie "Sorry to interrupt you, Cody. Mind if we steal our friend for a bit? Tobby and I were walking around the forest—it's breathtaking. Just between us, the clean air is turning me on like crazy."
-
-    cody "And making me hungry too, isabelle, hahaha. So, what's the plan? Snack on something, walk a little more? Or are we gonna sit around the campfire roasting marshmallows and sipping cocoa while telling ghost stories?"
-
-    valerie "I bet that's sweet Cody's idea of fun. Now I get why isabelle invited us—to keep her from dying of boredom. Honestly, I'd rather be in a sex party with 4–5 big-dicked guys wrecking me senseless."
-
-    scene story_50 with dissolve
+    scene story_67 with dissolve
     pause 1.0
+    isabelle "Heeey, you! Stop, don’t go!"
+    isabelle "I don’t know who you are, but I need help. Please, will you come over?"
+    window hide
+    narrator "I can’t believe I’m doing this. I’m seriously crazy."
+    narrator "What will he say? But I couldn’t have known unless I tried…"
 
-    isabelle "Actually, Valerie and I were talking about that. Maybe we'll eat a bit, walk around the lake—Cody said the view's nice there. It's near the campsite anyway. Honestly, inviting Valerie and Tobby was the smartest thing I did."
-
-    isabelle "Otherwise I'd be stuck following Cody's lame schedule. At least tonight, I'll get some satisfaction in bed. And if I spend the next few days dancing and hanging with my friends, then go back to the city and dump Cody,"
-
-    isabelle "I can finally have wild sex with a real man—a man with a big, hard cock. It's been way too long since I've had good sex. I'm starving for a real man. Just a little longer… I have to be patient."
-
-    scene story_51 with dissolve
+    scene story_68 with dissolve
     pause 1.0
+    isabelle "Hi, I’m isabelle. Sorry to bother you. I came here with some friends."
+    isabelle "They’re all sleeping, but I couldn’t. I got bored, so I went for a walk."
+    isabelle "Then I saw you from afar and—well, I thought nobody lived around here."
+    isabelle "So when I saw you I was shocked. Do you live here?"
+    window hide
+    narrator "Why isn’t he saying anything? Damn it."
+    narrator "He’s staring at my body and face like a statue, but not saying a word."
+    narrator "Maybe he speaks another language. He does live in the mountains after all."
+    narrator "Oooofff even from here, the hardness of those muscles is obvious."
+    narrator "That man would fuck me to death in bed."
 
-    valerie "Shut up, Tobby, as if you weren’t the one just burning inside to get fucked by a big-dicked guy hahaha."
-    tobby "(Yeah, maybe I was… but you didn’t have to say it out loud, Valerie.)"
-    valerie "(Oh, come on. Everyone’s thinking it anyway.)"
-
-    cody "You’re right, honey, it’s better if we leave before it gets dark."
-    cody "Let’s grab the sandwiches and go wherever we’re going, I’m starving like a wolf."
-    cody "It’d be good to sleep early tonight, isabelle. Tomorrow we’ll wake up early and as soon as your rehearsals end, we’ll go swimming at the lake."
-    cody "Come on, darlings, let’s go. It’ll be dark soon."
-
-    valerie "isabelle looks downcast."
-    valerie "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
-    valerie "How awful for a fiery and sexy woman like her to be with someone as incompetent and impotent as Cody."
-    valerie "I bet isabelle is counting the days until she gets back hahah."
-
-    scene story_53 with dissolve
+    scene story_69 with dissolve
     pause 1.0
+    isabelle "I asked you something, sir. Do you live here? Do you understand me?"
+    isabelle "Do you understand the language I’m speaking?"
+    isabelle "I’m isabelle. I think I got lost while walking in the dark. I can’t go back alone now."
+    isabelle "The forest is dangerous. I need someone strong to protect me and help me get back safely."
+    isabelle "Will you help me?"
+    narrator "I hope he doesn’t realize I’m lying."
+    narrator "I already know the way back by heart."
+    narrator "Oooofff I’m standing in front of him completely naked, burning with the need for him to fuck me."
+    narrator "I want him to shove that cock in me all the way to the hilt."
+    narrator "Why isn’t he saying anything?"
 
-    isabelle "AHHHH AHHHH YESSS keep going please, ahhhhhh, just like that keep going..."
-    isabelle "(Finally… he’s moving faster. Maybe this time—)"
-    isabelle "(No… it still feels empty. Forced. Mechanical. Like he’s trying to prove something.)"
-    isabelle "(Why do I even pretend this feels good?)"
-
-    scene story_54 with dissolve
+    scene story_70 with dissolve
     pause 1.0
+    axel "I never imagined I'd find the most beautiful prey at this hour, during my hunt."
+    axel "Look at that pretty face. Luck’s on my side again."
+    axel "My hunger for a woman has never peaked this hard."
+    axel "I can see her soaking pussy even from here."
+    axel "She clearly wants me to fuck her—but she doesn’t even realize who she’s dealing with yet."
+    axel "Axel wouldn’t send a beauty like you back, little girl."
+    axel "She keeps asking why I’m not talking. Haha. Stupid."
+    axel "She’s starting to get nervous. She’s scared of me, but she wants me to fuck her even more than that."
+    axel "So... she wants to play with Axel, huh?"
 
-    isabelle "OOOfff keep going Cody please keep going."
-    isabelle "Tonight I want you to fuck me until morning."
-    isabelle "Ahh yes keep going. Ahhh when you thrust your cock in and out of me, my pussy gets soaked."
-    isabelle "You haven’t fucked me in weeks."
-    isabelle "Try to be rough, please. Ahhh. Fuck me so hard that my screams echo through the whole forest."
-
-    isabelle "(Let’s see how many minutes he lasts this time.)"
-    isabelle "(If I act like I’m enjoying it, maybe he’ll last longer.)"
-    isabelle "(At least I won’t need my vibrator tonight… if I can even finish.)"
-    isabelle "Yes keep going Cody, fuck me like a real man."
-
-    scene story_55 with dissolve
+    scene story_70 with dissolve
     pause 1.0
+    narrator "Out here hunting, I never expected to come across my most beautiful catch yet."
+    narrator "Look at that gorgeous face. Luck’s with me again."
+    narrator "The hunger I feel for a woman has never burned this hot."
+    narrator "Even from here, I can see how eager she is—how badly she wants to be touched."
+    narrator "She clearly wants me to take her, but has no idea who she’s just run into."
+    narrator "Axel doesn’t send a woman like this back, little one."
+    narrator "She’s asking why I’m silent. Ha, foolish girl."
+    narrator "She’s starting to panic. Afraid—and yet burning for me at the same time."
+    narrator "So... she wants to play with Axel."
 
-    isabelle "Don’t slow down, be rough. No stopping. No pauses, fuck me hard."
-    isabelle "This is the body you wanted—then fuck it."
-    isabelle "Thrust all the way in, pull out, then shove it in again in hard, sudden motions until your balls slap against me."
-
-    isabelle "(I can’t believe I’ve gotten to the point of telling a man how to fuck me.)"
-    isabelle "(I can’t believe I’ve let myself fall into such a pathetic situation.)"
-    isabelle "(Look at this poor excuse of a man. I can’t endure one more day with this loser. His stupidity killed all my libido.)"
-
-    cody "(She’s saying everything I want to hear… but something in her eyes feels distant. Cold.)"
-    isabelle "(I can’t even hate him properly anymore. I just want this to end.)"
-
-    scene story_56 with dissolve
+    scene story_71 with dissolve
     pause 1.0
+    narrator "No need to speak. My body says enough."
+    narrator "She can see the need in me, rising strong beneath the cloth at my waist."
+    narrator "Her gaze locks there—exactly as I expected."
+    narrator "She wants Axel to claim her. That’s obvious."
+    narrator "It’s been far too long since I’ve had a woman this eager, this wild."
+    narrator "She’s going to feel every inch of it—every bit of what she’s been aching for."
+    narrator "Let’s turn up the heat... and see how much she can take."
 
-    cody "AAAHH... Isabella, am I fucking you like you said?"
-    cody "Ahhh, you’re so wet inside."
-    cody "Isabella, I’m going to cum already, I can’t hold it anymore."
-    cody "I can’t last long."
-    cody "AAAHhhh—"
-
-    scene story_57 with dissolve
+    scene story_72 with dissolve
     pause 1.0
+    isabelle "Can I ask you something? Umm... ohh... I just wanted to say..."
+    narrator "God, he's huge."
+    narrator "When he stayed silent, I got nervous—"
+    narrator "Then he pulled off the cloth… and I knew what he wanted."
+    narrator "Offff, I’m already soaked just thinking about how it’ll feel to take all of him."
+    narrator "My body’s burning—I can barely stand still."
+    narrator "He’s going to make me lose myself completely—I can feel it."
 
-    isabella "Enough already. Seven minutes this time too."
-    isabella "Did you bring me all the way out here, miles from home, just to see the view?"
-    isabella "Was this your hot surprise for me?"
-    isabella "Good night. I don’t want to waste any more time with a loser like you."
-    isabella "I’ve wasted enough of my time on you already."
-
-    isabella "I told you before— not every man can handle me."
-    isabella "I can’t keep being with a weak, cowardly man."
-    isabella "I won’t be the joke among my friends because of you."
-    isabella "You invited me to pick flowers under the excuse of a romantic trip."
-    isabella "Your mind is only on yourself."
-    isabella "And our sexual chemistry is terrible."
-
-    isabella "Enough already, I can’t keep tolerating your disrespect any longer."
-    isabella "Please don’t say a single word, I’m furious."
-    isabella "The moment we get back, everything between us is over."
-
-    scene story_58 with dissolve
+    scene story_73 with dissolve
     pause 1.0
+    isabelle "Mmm... it's so big. I’ve never seen anything like this..."
+    narrator "Offf... being taken by a man like this, before I leave in the morning, would be unreal."
+    narrator "Valerie won’t believe a word when I tell her—haha."
+    narrator "They’d all be jealous if they knew I had a man like this."
+    narrator "He’s walking toward me now—this is it, isabelle."
+    narrator "That thick, powerful body… it’s yours to taste tonight."
 
-    narrator "Cody turned his back to Isabella helplessly and, in a sad voice, said goodnight before falling asleep."
-    narrator "Isabella didn’t even blink for forty minutes."
-    narrator "She was too angry to sleep."
+    scene story_74 with dissolve
+    pause 1.0
+    narrator "Well, well... who’s this little beauty wandering naked through the woods in the dead of night?"
+    narrator "So, you want to be Axel’s woman, is that it?"
+    narrator "You're already dripping with need—it's running down your thighs, calling to me."
+    narrator "You want your wild man to take you, don’t you, little girl?"
+    narrator "I’m nothing like the weak ones you’ve known."
+    narrator "If you've given yourself to me, then you know what pleasure tastes like."
+    narrator "You’ll crave this again—I promise you that."
+    narrator "That tight little body of yours will beg to be filled by the only one who knows how to handle it."
 
-    narrator "The moment morning came, she planned to leave this forest, return to the city, continue her dance rehearsals, enjoy her single life again—"
-    narrator "to go out drinking and dancing with her friends until dawn,"
-    narrator "and to have wild, endless sex with any handsome real man she met at the bar th
+    scene story_75 with dissolve
+    pause 1.0
+    narrator "He admired her, every curve lit by moonlight, the faint rise and fall of her breath drawing him closer."
+    narrator "The lost girl had found her way to him, not by accident but by something far stronger."
+    narrator "Tonight, she would give him her trust, her energy, her heartbeat."
+    axel "You understand, don’t you?"
+    axel "This is what you came for—to feel close, to feel wanted."
+    axel "Come here, isabelle. Let me hold you, let me show you what it means to be seen."
 
+    scene story_76 with dissolve
+    pause 1.0
+    isabelle "You’re so strong… every breath of yours feels like heat against my skin."
+    isabelle "It’s too much, but I don’t want to stop."
+    axel "Then don’t. Don’t hold back."
+    axel "Let yourself feel everything."
+    isabelle "Every time I move closer, I feel your heartbeat racing with mine."
+    axel "That’s it… breathe with me. Don’t rush it."
+    isabelle "I can’t believe how alive this feels… how real."
+
+    scene story_77 with dissolve
+    pause 1.0
+    isabelle "Every motion, every touch—it’s like sparks running through me."
+    isabelle "The rhythm between us keeps pulling me deeper, like a tide I can’t fight."
+    axel "Then let it take you."
+    axel "Follow the feeling. Let go of everything else."
+    isabelle "I can’t think straight anymore, I just feel… warmth everywhere."
+    axel "You’re beautiful like this. Completely free."
+
+    scene story_78 with dissolve
+    pause 1.0
+    axel "Stay with me. Right here, right now."
+    isabelle "I’m here… I don’t want this to end."
+    axel "Then don’t let it. Just breathe… feel the moment stretch."
+    isabelle "It’s like the world has disappeared, and there’s only us."
+
+    scene story_79 with dissolve
+    pause 1.0
+    isabelle "I want this feeling to stay forever."
+    axel "It will. Every time you close your eyes, you’ll remember it."
+    isabelle "Promise me."
+    axel "You have my word."
+    narrator "They stayed there in the quiet, the night around them slowing to a soft hum, their bodies warm against the chill of the air."
+    narrator "No words left, just breath and silence and the memory of what they’d found."
 
     return

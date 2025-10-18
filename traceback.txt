@@ -6,8 +6,8 @@ NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/intro.rpy", line 430, in script
-    isabella "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
+  File "game/intro.rpy", line 683, in script
+    isabella "Can I ask you something? Umm... ohh... I just wanted to say..."
 Exception: Sayer 'isabella' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
@@ -28,8 +28,8 @@ NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/intro.rpy", line 430, in script
-    isabella "(They’re all laughing, talking, and planning... and I can’t even fake a smile anymore.)"
+  File "game/intro.rpy", line 683, in script
+    isabella "Can I ask you something? Umm... ohh... I just wanted to say..."
   File "renpy/ast.py", line 2915, in execute
     Say.execute(self)
     ~~~~~~~~~~~^^^^^^
@@ -43,4 +43,4 @@ Exception: Sayer 'isabella' is not defined.
 macOS-15.6.1-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Axels Fantasy 1.0
-Wed Oct 15 22:41:54 2025
+Thu Oct 16 00:26:50 2025
