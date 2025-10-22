@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
+NameError: name 'Isabella' is not defined. Did you mean: 'isabelle'?
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/intro.rpy", line 683, in script
-    isabella "Can I ask you something? Umm... ohh... I just wanted to say..."
-Exception: Sayer 'isabella' is not defined.
+  File "game/intro.rpy", line 1098, in script
+    Isabella "(This idiot must be messing with me.)"
+Exception: Sayer 'Isabella' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -23,13 +23,13 @@ Traceback (most recent call last):
     return eval(bytecode, globals, locals)
            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "<none>", line 1, in <module>
-NameError: name 'isabella' is not defined. Did you mean: 'isabelle'?
+NameError: name 'Isabella' is not defined. Did you mean: 'isabelle'?
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/intro.rpy", line 683, in script
-    isabella "Can I ask you something? Umm... ohh... I just wanted to say..."
+  File "game/intro.rpy", line 1098, in script
+    Isabella "(This idiot must be messing with me.)"
   File "renpy/ast.py", line 2915, in execute
     Say.execute(self)
     ~~~~~~~~~~~^^^^^^
@@ -38,9 +38,9 @@ Traceback (most recent call last):
           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
   File "renpy/ast.py", line 627, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'isabella' is not defined.
+Exception: Sayer 'Isabella' is not defined.
 
 macOS-15.6.1-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Axels Fantasy 1.0
-Thu Oct 16 00:26:50 2025
+Tue Oct 21 15:12:36 2025
